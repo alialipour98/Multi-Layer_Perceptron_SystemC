@@ -1,0 +1,15 @@
+﻿  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+C:\Users\User\Documents\Cproject\MLP\Register_File.h(80,17): warning C4244: 'argument': conversion from 'sc_dt::uint_type' to 'int', possible loss of data
+C:\Users\User\Documents\Cproject\MLP\Register_File.h(76): message : while compiling class template member function 'void Register_File<4,8>::memread(void)'
+C:\Users\User\Documents\Cproject\MLP\Register_File.h(44): message : see reference to function template instantiation 'void Register_File<4,8>::memread(void)' being compiled
+C:\Users\User\Documents\Cproject\MLP\Register_File.h(40): message : while compiling class template member function 'Register_File<4,8>::Register_File(sc_core::sc_module_name)'
+C:\Users\User\Documents\Cproject\MLP\Datapath.h(81): message : see reference to function template instantiation 'Register_File<4,8>::Register_File(sc_core::sc_module_name)' being compiled
+C:\Users\User\Documents\Cproject\MLP\Datapath.h(81): message : see reference to class template instantiation 'Register_File<4,8>' being compiled
+C:\Users\User\Documents\Cproject\MLP\Datapath.h(79): message : while compiling class template member function 'Datapath<4,4>::Datapath(sc_core::sc_module_name)'
+C:\Users\User\Documents\Cproject\MLP\Single_Neuron.h(56): message : see reference to function template instantiation 'Datapath<4,4>::Datapath(sc_core::sc_module_name)' being compiled
+C:\Users\User\Documents\Cproject\MLP\Single_Neuron.h(56): message : see reference to class template instantiation 'Datapath<4,4>' being compiled
+C:\Users\User\Documents\Cproject\MLP\Single_Neuron.h(54): message : while compiling class template member function 'Single_Neuron<4,4>::Single_Neuron(sc_core::sc_module_name)'
+C:\Users\User\Documents\Cproject\MLP\Top_Module_MLP.h(245): message : see reference to function template instantiation 'Single_Neuron<4,4>::Single_Neuron(sc_core::sc_module_name)' being compiled
+C:\Users\User\Documents\Cproject\MLP\Top_Module_MLP.h(245): message : see reference to class template instantiation 'Single_Neuron<4,4>' being compiled
+  MLP.vcxproj -> C:\Users\User\Documents\Cproject\MLP\Debug\MLP.exe
